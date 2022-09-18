@@ -3,12 +3,15 @@
     margin: 0;
     padding:0 ;
     box-sizing: border-box;
-    background-color: aqua;
+    background-color: 	#101010;
+    
 }
+
 /* heading of page  */
 #heading{
     margin-top: 10px;
-    color: darkolivegreen;
+    color:lightcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 /* this the whole stop watch which i am styling */
@@ -20,9 +23,11 @@
     transform: translate(-50%,-50%);
     /* set height and width and add curvesat edges */
     height: 350px;
-    width: 500px;
+    width: 480px;
     border-radius: 55px;
-    background-color: rgb(10, 37, 65);
+    /* background-color: rgb(10, 37, 65); */
+    background-color: transparent;
+
     /* flexbox the whole div so the i make everyrhing inside in symetry and centered */
     display: flex;
     align-items: center;
@@ -37,17 +42,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(136, 146, 176);
-}
-#display h1{
+    /* background-color: rgb(136, 146, 176); */
     background-color: transparent;
+}
+#hours{
+    background-color: transparent;
+    font-size: 8rem;
+    color: cyan;
+}
+#minutes{
+    background-color: transparent;
+    font-size: 8rem;
+    color: cornsilk;
+
+}
+#seconds{
+    background-color: transparent;
+    font-size: 8rem;
+    color: lightcyan;
+
 }
 /* designing buttons container */
 #buttons{
     margin-top: 20px;
     height: 150px;
     width: 400px;
-    background-color: orangered;
+    /* background-color: orangered; */
+    background-color: transparent;
     border-radius: 35px;
     display: flex;
     align-items: center;
