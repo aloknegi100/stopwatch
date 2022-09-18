@@ -1,0 +1,75 @@
+/* doing zero all default padding and margins */
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+/* heading of page  */
+#heading{
+    margin-top: 10px;
+    color: darkolivegreen;
+    text-align: center;
+}
+/* this the whole stop watch which i am styling */
+#stopwatch{
+    /* positioning it at center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* set height and width and add curvesat edges */
+    height: 350px;
+    width: 500px;
+    border-radius: 55px;
+    background-color: rgb(10, 37, 65);
+    /* flexbox the whole div so the i make everyrhing inside in symetry and centered */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* disigning where watch will show timer */
+#display{
+    margin-top: 2rem;
+    border-radius: 55px;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(136, 146, 176);
+}
+#display h1{
+    background-color: transparent;
+}
+/* designing buttons container */
+#buttons{
+    margin-top: 20px;
+    height: 150px;
+    width: 400px;
+    background-color: orangered;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+/* all buttons i am styling  */
+#buttons input{
+    border-radius: 10px;
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+    background-color: lightgrey;
+    color: purple;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    
+}
+/* hover effect on buttons */
+#buttons input:hover{
+   background-color: aqua;
+   transform: scale(1.01);
+    
+}
